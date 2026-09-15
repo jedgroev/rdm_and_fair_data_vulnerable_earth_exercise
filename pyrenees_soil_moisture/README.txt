@@ -1,9 +1,9 @@
 PROJECT: Soil moisture monitoring along an elevation gradient in the Pyrenees
 =========================================================================
 
-Author:      Maria Santos
+Author:      Johannes De Groeve
 Institution: University of Amsterdam, IBED
-Contact:     m.santos@uva.nl
+Contact:     j.degroeve@uva.nl
 Date:        August 2025
 License:     CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 

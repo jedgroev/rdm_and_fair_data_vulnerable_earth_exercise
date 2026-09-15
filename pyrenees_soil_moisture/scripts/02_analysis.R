@@ -2,7 +2,7 @@
 # 02_analysis.R
 # Purpose : Test whether soil moisture decreases significantly with elevation
 #           using a linear mixed-effects model (site as random effect).
-# Author  : Maria Santos (m.santos@uva.nl)
+# Author  : Johannes De Groeve (j.degroeve@uva.nl)
 # Date    : 2025-08-05
 # Input   : data/processed/soil_moisture_clean.csv
 # Output  : results/model_summary.txt

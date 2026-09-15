@@ -1,7 +1,7 @@
 # =============================================================================
 # 03_figures.R
 # Purpose : Produce figures for the results folder.
-# Author  : Maria Santos (m.santos@uva.nl)
+# Author  : Johannes De Groeve (j.degroeve@uva.nl)
 # Date    : 2025-08-06
 # Input   : data/processed/site_monthly_summary.csv
 # Output  : results/fig01_moisture_by_elevation.png

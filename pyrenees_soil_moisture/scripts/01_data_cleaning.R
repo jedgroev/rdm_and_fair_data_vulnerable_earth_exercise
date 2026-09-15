@@ -2,7 +2,7 @@
 # 01_data_cleaning.R
 # Purpose : Load raw soil moisture data, remove outliers, handle missing values,
 #           and export cleaned datasets to data/processed/
-# Author  : Maria Santos (m.santos@uva.nl)
+# Author  : Johannes De Groeve (j.degroeve@uva.nl)
 # Date    : 2025-08-01
 # Input   : data/raw/soil_moisture_raw.csv
 #           data/raw/site_coordinates.csv
