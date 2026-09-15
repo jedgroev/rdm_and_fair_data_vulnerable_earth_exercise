@@ -1,5 +1,5 @@
 sites are along a mountain transect
-A = lowest, E = highest
+S1 = lowest, S5 = highest
 coordinates written in field notebook
 used the same sensor as last time
-site C had some issues in july i think
+site S3 had some issues in july i think
