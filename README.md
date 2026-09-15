@@ -35,4 +35,4 @@ metadata, column names, file names, folder structure, scripts, and results.
 - Metadata (describing your data) is just as important as the data itself.
 - Good practices should start **from the beginning** of a project, not at the end.
 - Open, plain-text file formats (CSV, TXT, R scripts) are more reusable than
-  proprietary formats (Excel, SPSS `.sav`).
+  proprietary formats (e.g. Excel).
