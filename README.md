@@ -1,9 +1,5 @@
 # Exercise: Evaluating Research Data Repositories
 
-**Duration:** ~10 minutes exploration + 10 minutes group discussion  
-**Level:** Bachelor
-
----
 
 ## The Exercise
 
