@@ -5,39 +5,20 @@
 
 ---
 
-## Background
-
-A research data repository is a structured collection of files that allows
-others (and your future self) to understand, reproduce, and reuse your
-research. A good repository follows the FAIR principles:
-
-| Principle | What it means in practice |
-|-----------|--------------------------|
-| **F**indable | The repository has a clear description and uses standard file formats |
-| **A**ccessible | Files can be opened and read without special permissions or software |
-| **I**nteroperable | Data is in open, machine-readable formats (e.g. CSV, not Excel) |
-| **R**eusable | Documentation is complete enough that someone else could reuse the data |
-
-The most important question to ask yourself when building a repository is:
-
-> *"If a stranger downloaded this folder, could they understand what is here,
-> reproduce the results, and trust the data enough to reuse it?"*
-
----
-
 ## The Exercise
 
-You have been given two fictional data repositories:
+You have been given two fictional data repositories based on the same soil
+moisture study along an elevation gradient in the Pyrenees:
 
 | Folder | Description |
 |--------|-------------|
-| `repo_good/` | A repository from a student project on soil moisture in the Pyrenees |
-| `repo_bad/`  | A repository from a different student project on the same topic |
+| `pyrenees_soil_moisture/` | A repository from a student project on soil moisture in the Pyrenees |
+| `thesis_data/` | A repository from a different student working on the same project |
 
 **Step 1 – Explore (5 minutes)**
 
-Browse both repositories. Open a few files and look at the folder structure,
-file names, and any documentation that is present.
+Download and browse both repositories. Open a few files and look at the folder
+structure, file names, and any documentation that is present.
 
 **Step 2 – Discuss (5–10 minutes)**
 
@@ -75,21 +56,6 @@ actual files or folders when you explain your answer.
 ### 5. Reproducibility and reuse
 - Given what is in the repository, could you reproduce the main result?
 - Would you trust this data enough to build your own research on it? Why or why not?
-
----
-
-## After the Discussion
-
-Together, draft a short list of **5 criteria** you would use to assess any
-research data repository. For each criterion, write one sentence describing
-what "good" looks like.
-
-Example format:
-
-| # | Criterion | What "good" looks like |
-|---|-----------|------------------------|
-| 1 | README file | There is a README that describes the project, who collected the data, and how to reproduce the results |
-| 2 | ... | ... |
 
 ---
 
