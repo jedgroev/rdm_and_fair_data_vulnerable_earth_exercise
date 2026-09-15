@@ -1,5 +1,7 @@
 setwd("C:/Users/alex/Desktop/thesis/data")
-d <- read.csv("data.csv")
+
+d = read.csv("data.csv")
+
 # trying something
-d$mean <- (d$val1 + d$val2) / 2
-plot(d$x, d$mean)
+d$mean = (d$m1 + d$m2) / 2
+plot(d$elev, d$mean)
