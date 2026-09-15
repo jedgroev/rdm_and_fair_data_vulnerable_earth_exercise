@@ -1,0 +1,34 @@
+METADATA - RAW DATA
+===================
+Folder: data/raw/
+Last updated: 2025-08-01
+
+FILES
+-----
+soil_moisture_raw.csv
+  Description : Raw soil moisture readings from all five field sites
+  Columns     :
+    date        - Date of measurement (YYYY-MM-DD)
+    site_id     - Site identifier (S1–S5)
+    elevation_m - Elevation in metres above sea level
+    moisture_pct - Volumetric soil moisture (%; range 0–100)
+    replicate   - Replicate number (1–3)
+    sensor_id   - Sensor serial number
+  Rows        : 828 (including header)
+  CRS / projection : WGS84 (EPSG:4326)
+  No header rows removed; file is as exported from logger
+
+site_coordinates.csv
+  Description : GPS coordinates and vegetation type for each site
+  Columns     :
+    site_id     - Site identifier (S1–S5)
+    latitude    - Decimal degrees (WGS84)
+    longitude   - Decimal degrees (WGS84)
+    elevation_m - Elevation in metres above sea level
+    vegetation  - Dominant vegetation class (grassland / shrubland / forest)
+  Rows        : 6 (including header)
+
+NOTES
+-----
+- Files exported directly from Delta-T SM150T datalogger software v3.1.
+- No values have been altered. NAs represent failed reads logged by sensor.

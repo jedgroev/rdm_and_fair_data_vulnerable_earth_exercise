@@ -1,0 +1,23 @@
+METADATA - RESULTS
+==================
+Folder: results/
+Last updated: 2025-08-06
+Produced by: scripts/02_analysis.R and scripts/03_figures.R
+
+FILES
+-----
+model_summary.txt
+  Description : Output of the linear mixed-effects model testing the effect
+                of elevation on soil moisture (lme4::lmer).
+  Interpretation: A negative coefficient for elevation_m indicates that soil
+                moisture decreases significantly with increasing elevation.
+
+fig01_moisture_by_elevation.png
+  Description : Line plot of mean monthly soil moisture (%) vs elevation
+                (m a.s.l.) for June, July, and August. Error bars = ±1 SD.
+  Resolution  : 300 dpi, 7 × 5 inches
+
+fig02_moisture_over_time.png
+  Description : Time series of daily mean soil moisture per site across the
+                full measurement period (June–August 2024).
+  Resolution  : 300 dpi, 9 × 5 inches

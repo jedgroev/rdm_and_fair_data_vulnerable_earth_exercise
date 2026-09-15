@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+
+# R
+.Rhistory
+.Rproj.user/
+
+# Local documentation — not part of the exercise
+documentation/
