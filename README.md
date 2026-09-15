@@ -25,3 +25,14 @@ structure, file names, and any documentation that is present.
 Compare the two repositories. What makes `pyrenees_soil_moisture` more reusable
 than `thesis_data`? What is missing from `thesis_data`? Think about the README,
 metadata, column names, file names, folder structure, scripts, and results.
+
+---
+
+## Key Takeaways
+
+- A good repository is not about having the most files — it is about having
+  the **right** files with **clear documentation**.
+- Metadata (describing your data) is just as important as the data itself.
+- Good practices should start **from the beginning** of a project, not at the end.
+- Open, plain-text file formats (CSV, TXT, R scripts) are more reusable than
+  proprietary formats (Excel, SPSS `.sav`).
