@@ -1,0 +1,22 @@
+METADATA - RESULTS
+==================
+Folder: results/
+Last updated: 2025-09-15
+Produced by: scripts/01_analysis.R
+
+FILES
+-----
+model_summary.txt
+  Description : Output of a linear model testing the effect of NDVI (100 m
+                buffer) on bird species richness (lm).
+  Interpretation: A positive coefficient for ndvi_100 indicates that sites
+                  with more vegetation greenness have higher bird diversity.
+
+fig01_richness_vs_ndvi.png
+  Description : Scatter plot of bird species richness vs NDVI (100 m buffer)
+                with a linear regression line and 95% confidence interval.
+  Resolution  : 300 dpi, 7 × 5 inches
+
+fig02_map_richness.png
+  Description : Map of all 86 monitoring sites coloured by species richness.
+  Resolution  : 300 dpi, 7 × 6 inches

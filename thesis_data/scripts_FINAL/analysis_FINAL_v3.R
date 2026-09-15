@@ -1,16 +1,14 @@
 setwd("C:/Users/alex/Desktop/thesis/data")
 
-d = read.csv("data_FINAL.csv")
+d = read.csv("diversity_green.csv")
 
-d$mean = (d$m1 + d$m2 + d$m3) / 3
+# plot
+plot(d$ndvi_100, d$richness)
 
-d2 = d[d$mean != 999, ]
-d2 = d2[!is.na(d2$mean), ]
-
-library(lme4)
-m = lmer(mean ~ elev + (1|loc), data = d2)
+m = lm(richness ~ ndvi_100, data=d)
 summary(m)
 
+# this worked
 library(ggplot2)
-ggplot(d2, aes(x=elev, y=mean)) + geom_point() + geom_smooth(method="lm")
-ggsave("C:/Users/alex/Desktop/thesis/results_v2/plot1.png")
+ggplot(d, aes(ndvi_100, richness)) + geom_point() + geom_smooth(method="lm")
+ggsave("C:/Users/alex/Desktop/thesis/results_v2/plot.png")

@@ -1,5 +1,6 @@
-sites are along a mountain transect
-A = lowest, E = highest
-coordinates written in field notebook
-used the same sensor as last time
-site C had some issues in july i think
+got this data from a paper
+downloaded from somewhere online
+sites are in munich i think
+ndvi means greenness
+richness = number of species
+not sure which columns i actually used

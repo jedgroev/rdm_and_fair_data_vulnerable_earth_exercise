@@ -13,7 +13,7 @@ research. A good repository follows the FAIR principles:
 
 | Principle | What it means in practice |
 |-----------|--------------------------|
-| **F**indable | The repository has a clear description and uses standard file formats |
+| **F**indable | The repository has a clear description and uses standard file formats; ideally has a persistent identifier (DOI) |
 | **A**ccessible | Files can be opened and read without special permissions or software |
 | **I**nteroperable | Data is in open, machine-readable formats (e.g. CSV, not Excel) |
 | **R**eusable | Documentation is complete enough that someone else could reuse the data |
@@ -25,19 +25,35 @@ The most important question to ask yourself when building a repository is:
 
 ---
 
+## The Dataset
+
+Both repositories in this exercise use the same real, publicly available dataset:
+
+> Fairbairn, A.J., Katholnigg, S., Leichtle, T., Merkens, L., Schroll, L.,
+> Weisser, W.W. & Meyer, S.T. (2025) *Acoustic bird diversity and community
+> composition in relation to urban greenness in Munich, Germany* [Dataset].
+> Zenodo. https://doi.org/10.5281/zenodo.17991471
+
+The dataset contains bird diversity measurements from 86 passive acoustic
+monitoring sites across Munich, Germany, alongside vegetation greenness
+measures (NDVI, vegetation volume) at each site.
+
+---
+
 ## The Exercise
 
-You have been given two fictional data repositories:
+You have been given two repositories that both use this dataset:
 
 | Folder | Description |
 |--------|-------------|
-| `repo_good/` | A repository from a student project on soil moisture in the Pyrenees |
-| `repo_bad/`  | A repository from a different student project on the same topic |
+| `munich_birds/` | A repository from a student project analysing the data |
+| `thesis_data/`  | A repository from a different student working on the same data |
 
 **Step 1 – Explore (5 minutes)**
 
 Browse both repositories. Open a few files and look at the folder structure,
-file names, and any documentation that is present.
+file names, and any documentation present. You can also look up the original
+dataset on Zenodo using the DOI above.
 
 **Step 2 – Discuss (5–10 minutes)**
 
@@ -51,30 +67,33 @@ actual files or folders when you explain your answer.
 ### 1. Folder structure and file naming
 - Is the folder structure logical? Can you tell at a glance what is in each folder?
 - Are the file names meaningful? Would you know what a file contains without opening it?
-- Are there files whose purpose is unclear (e.g. `data_v2`, `FINAL_copy`, `other_stuff`)?
+- Are there files whose purpose is unclear (e.g. `_v2`, `_FINAL`, `_copy`, `other_stuff`)?
 
 ### 2. Metadata and documentation
 - Is there a README or similar overview file? Does it tell you:
-  - Who collected the data, when, and where?
-  - What the data represents?
+  - Who created the repository, when, and what it is about?
+  - Where the data came from (source, DOI, license)?
   - How to reproduce the results?
-- Are there metadata files describing the columns/variables in the data files?
+- Are the data files described clearly (column names, units, what values mean)?
 - Is anything missing that would make the data hard to reuse?
 
 ### 3. Data files
 - Can you open the data files without special software?
-- Are column names clear and are units included?
-- Are there unexplained values (e.g. `999`, empty cells, duplicate files)?
-- Is it clear which file is the "correct" or final version of the data?
+- Is it clear where the data came from and whether it is allowed to reuse it?
+- Is there a reference back to the original dataset and its DOI?
+- Is it clear which file is the correct or final version?
 
 ### 4. Scripts
 - Are scripts present that show how the data was processed and analysed?
 - Could you run the scripts on your own computer? What might stop you?
 - Do the scripts reference files or paths that only exist on someone else's machine?
 
-### 5. Reproducibility and reuse
-- Given what is in the repository, could you reproduce the main result?
-- Would you trust this data enough to build your own research on it? Why or why not?
+### 5. Findability and FAIR
+- Look up the DOI https://doi.org/10.5281/zenodo.17991471 — what does the
+  original Zenodo repository look like compared to these two repositories?
+- Which repository makes it easiest to find, understand, and reuse the data?
+- What would happen if the original Zenodo link changed or disappeared — which
+  repository would still let you understand what data was used?
 
 ---
 
@@ -88,7 +107,7 @@ Example format:
 
 | # | Criterion | What "good" looks like |
 |---|-----------|------------------------|
-| 1 | README file | There is a README that describes the project, who collected the data, and how to reproduce the results |
+| 1 | README file | There is a README that describes the project, data source, license, and how to reproduce the results |
 | 2 | ... | ... |
 
 ---
@@ -97,7 +116,8 @@ Example format:
 
 - A good repository is not about having the most files — it is about having
   the **right** files with **clear documentation**.
-- Metadata (describing your data) is just as important as the data itself.
-- Good practices should start **from the beginning** of a project, not at the end.
+- Referencing the original data source with a **DOI** is essential for
+  attribution, reproducibility, and findability (the F and R in FAIR).
 - Open, plain-text file formats (CSV, TXT, R scripts) are more reusable than
   proprietary formats (Excel, SPSS `.sav`).
+- Good practices should start **from the beginning** of a project, not at the end.
