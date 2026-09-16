@@ -49,7 +49,8 @@ NOTES & LIMITATIONS
 
 HOW TO REPRODUCE THE RESULTS
 -----------------------------
-1. Open R (version >= 4.3)
+1. Open the R (version >= 4.3) project by double-clicking pyrenees_soil_moisture.Rproj. 
+   This will open RStudio with the correct working directory.
 2. Install required packages: tidyverse, ggplot2, lubridate
 3. Run scripts in order:
    - 01_data_cleaning.R
